@@ -421,3 +421,13 @@ input[name="r"]{
       text-align: right;
     }
   }
+
+  /* For iPad */
+@media only screen 
+and (device-width: 1024px) 
+and (device-height: 768px) 
+and (-webkit-device-pixel-ratio: 3) { 
+  [class*="nav-links"] {
+    text-align: right;
+  }
+}

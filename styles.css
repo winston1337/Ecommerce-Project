@@ -270,23 +270,116 @@ input[name="r"]{
 
 /* Products */
 
-.wrapper {
+.cardsContainer {
   display: grid;
-  grid-template-columns: 45% 45%;
-  margin-left: 25%;
-  column-gap: 30px;
-  row-gap: 20px;
-  background: #e79d47;
-  margin-inline-end: 100px;
-  padding: 25px;
+  grid-template-columns: 40% auto;
+  justify-content: center;
 }
-.container{
-  padding: 2px 16px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px;
-  border: 5px solid black;
+
+.cards:hover{
+  box-shadow: 0 8px 12px 0 rgb(243, 163, 15);
 }
+.cardImage{
+  background-color: aqua;
+  height: 80%;
+  margin-bottom: 30px;
+}
+
+.cards{
+  background: white;
+  width: 280px;
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+
+}
+.card-1{
+  background-image: url(products/black-dress-shirt2.jpg);
+  background-size: cover;
+}
+.card-1:hover{
+  background-image: url(products/black-dress-shirt.jpg);
+}
+.card-2{
+  background-image: url(products/beach-shirt1.jpg);
+  background-size: cover;
+}
+.card-2:hover{
+  background-image: url(products/beach-shirt2.jpg);
+}
+.card-3{
+  background-image: url(products/stripe-shirt1.jpg);
+  background-size: cover;
+}
+.card-3:hover{
+  background-image: url(products/stripe-shirt2.jpg);
+}
+.card-4{
+  background-image: url(products/gold-shirt1.jpg);
+  background-size: cover;
+}
+.card-4:hover{
+  background-image: url(products/gold-shirt2.jpg);
+}
+.card-5{
+  background-image: url(products/white-button1.jpg);
+  background-size: cover;
+}
+.card-5:hover{
+  background-image: url(products/white-button2.jpg);
+}
+.card-6{
+  background-image: url(products/white-tshirt1.jpeg);
+  background-size: cover;
+}
+.card-6:hover{
+  background-image: url(products/white-tshirt2.jpeg);
+}
+.card-7{
+  background-image: url(products/gray-tshirt1.jpeg);
+  background-size: cover;
+}
+.card-7:hover{
+  background-image: url(products/gray-tshirt2.jpeg);
+}
+.card-8{
+  background-image: url(products/black-jacket2.jpg);
+  background-size: cover;
+}
+.card-8:hover{
+  background-image: url(products/black-jacket1.jpg);
+}
+.card-9{
+  background-image: url(products/chain-blouson1.jpg);
+  background-size: cover;
+}
+.card-9:hover{
+  background-image: url(products/chain-blouson2.jpg);
+}
+.card-10{
+  background-image: url(products/bomber-jacket1.jpg);
+  background-size: cover;
+}
+.card-10:hover{
+  background-image: url(products/bomber-jacket2.jpg);
+}
+.card-11{
+  background-image: url(products/renaissance-jacket1.jpg);
+  background-size: cover;
+}
+.card-11:hover{
+  background-image: url(products/renaissance-jacket2.jpg);
+}
+.card-12{
+  background-image: url(products/blue-blazer1.jpg);
+  background-size: cover;
+}
+.card-12:hover{
+  background-image: url(products/blue-blazer2.jpg);
+}
+
+
+
 
 /* For iPhone 13 Pro Max */
 @media only screen 

@@ -18,6 +18,7 @@ nav{
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
   
 }
 nav img{
@@ -381,53 +382,13 @@ input[name="r"]{
 
 
 
-/* For iPhone 13 Pro Max */
+/* For Mobile Devices */
 @media only screen 
-  and (device-width: 428px) 
-  and (device-height: 926px) 
-  and (-webkit-device-pixel-ratio: 3) { 
-    [class*="nav-links"] {
+  and (max-width: 428px) { 
+    .nav-links {
       text-align: right;
     }
-  }
-
-/* For iPhone 13 and 13 Pro */
-@media only screen 
-  and (device-width: 390px) 
-  and (device-height: 844px) 
-  and (-webkit-device-pixel-ratio: 3) {
-    [class*="nav-links"] {
-      text-align: right;
-    }
-   }
-
-/* For iPhone X, XR, and 11 */
-@media only screen 
-  and (device-width: 414px) 
-  and (device-height: 896px) 
-  and (-webkit-device-pixel-ratio: 2) { 
-    [class*="nav-links"] {
-      text-align: right;
+    .cardsContainer{
+      grid-template-columns: 100%;
     }
   }
-
-
-/* For iPhone 11 Pro */
-@media only screen 
-  and (device-width: 414px) 
-  and (device-height: 896px) 
-  and (-webkit-device-pixel-ratio: 3) { 
-    [class*="nav-links"] {
-      text-align: right;
-    }
-  }
-
-  /* For iPad */
-@media only screen 
-and (device-width: 1024px) 
-and (device-height: 768px) 
-and (-webkit-device-pixel-ratio: 3) { 
-  [class*="nav-links"] {
-    text-align: right;
-  }
-}

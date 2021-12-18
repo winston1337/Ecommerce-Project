@@ -28,6 +28,7 @@ nav img{
   flex: 1;
   text-align: center;
   transform: translate(-55px, 0px);
+  overflow: hidden;
 }
 .nav-links ul li{
   list-style: none;
@@ -63,8 +64,7 @@ width: 100%;
   transform: translate(-50%,-50%);
   text-align: center;
   margin-top: -5%;
-
-
+  overflow: hidden;
 }
 .text-box h1{
   font-size: 40px;
@@ -170,6 +170,7 @@ color: #666;
   color: #e91e63;
   font-size: 12px;
   transform: translateY(-20px);
+  overflow: hidden;
 }
 .contactForm .inputBox input[type="submit"]
 {
@@ -210,6 +211,7 @@ footer{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -13.5%);
+  overflow: hidden;
 }
 .navigation{
   position: absolute;
@@ -217,6 +219,7 @@ footer{
   left: 50%;
   transform: translateX(-50%);
   display: flex;
+  overflow: hidden;
 }
 .bar{
   width: 50px;
@@ -281,7 +284,7 @@ input[name="r"]{
   box-shadow: 0 8px 12px 0 rgb(243, 163, 15);
 }
 .cardImage{
-  background-color: aqua;
+  background-color: rgb(171, 245, 245);
   height: 80%;
   margin-bottom: 30px;
 }
